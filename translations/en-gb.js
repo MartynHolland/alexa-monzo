@@ -5,8 +5,9 @@ module.exports = {
     `The balances on your {count} Monzo accounts are:`
   ],
   MultipleAccountBalanceWithName: `{name}'s account has a balance of {balance}.`,
-  SingleAccountBalanceWithName: `The balance for {name}'s account is {balance}.`,
-
+    //MartynHolland - change singleaccountbalance to remove name variable until can work out preferred name variable
+  //SingleAccountBalanceWithName: `The balance for {name}'s account is {balance}.`,
+  SingleAccountBalanceWithName: `The balance of your account is {balance}.`,
   // Spending History
   SpendingTotal: `You've spent a total of {amount} in the last {duration}.`,
   SpendingTotalWithCategory: `You've spent a total of {amount} on {category} in the last {duration}.`,
